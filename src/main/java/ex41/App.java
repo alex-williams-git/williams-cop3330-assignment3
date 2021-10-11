@@ -57,7 +57,7 @@ public class App {
         return inputLines;
     }
 
-    public static ArrayList<String> writeFile(ArrayList<String> inputLines, String outputFile) throws IOException
+    public static void writeFile(ArrayList<String> inputLines, String outputFile) throws IOException
     {
         // create a writer
         BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile));
@@ -76,7 +76,5 @@ public class App {
 
         // close writer
         writer.close();
-
-        return inputLines;
     }
 }

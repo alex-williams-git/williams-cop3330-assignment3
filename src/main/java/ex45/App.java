@@ -36,7 +36,7 @@ public class App {
         return ret;
     }
 
-    static int replaceWord(String inputFile, String outputFile, String key, String replacement) throws IOException
+    static void replaceWord(String inputFile, String outputFile, String key, String replacement) throws IOException
     {
         Charset charSet = StandardCharsets.UTF_8;
         Path inputPath = Paths.get(inputFile);
@@ -57,7 +57,5 @@ public class App {
 
         scan.close();
         writer.close();
-
-        return 1;
     }
 }

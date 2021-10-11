@@ -1,0 +1,10 @@
+Scan the user input into a String Array
+Create directories using the function makeDirectory:
+    Create a folder for websites using mkDir
+    Create a folder for the specific website user inputted
+    Create an html file
+    If user wants JS folder:
+        Create JS folder
+    If user wants CSS folder:
+        Create CSS folder
+    Return 1 if success

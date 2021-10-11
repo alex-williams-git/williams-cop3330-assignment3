@@ -1,0 +1,9 @@
+Store the input file
+Scan the output file using scanInput function
+Store the word to replace and its replacements
+Replace the words in the file using function replaceWord:
+    Create BufferedWriter and Scanner
+    While the current line is not empty/null:
+        Use replaceAll function to replace the key with the replacement
+        Write the current line
+    Close the scanner and writer

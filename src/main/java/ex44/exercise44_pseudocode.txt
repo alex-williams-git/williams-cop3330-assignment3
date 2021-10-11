@@ -1,0 +1,16 @@
+Create individualProduct class:
+    Stores product name, quantity, and price
+Create product class:
+    Stores a list of individual products
+Store the input path
+Store the info from JSON file using function parseJSON:
+    Create gson
+    Create BufferedReader
+    Use gson parse function
+Trap user input using trapInput function
+    While the user input is not found in the inventory:
+        Prompt for product name
+        If product is found:
+            print and exit the while loop
+        If the product was not found:
+            print that the product was not found

@@ -1,0 +1,14 @@
+Create Employee class:
+    Private variables to store last, first, and salary
+Create arrayList of type Employee class to hold info
+Store the information into the arrayList with function readFile:
+    Crate a splitter and BufferedReader
+    While the current line is not null:
+        Split the lines by commas and store the info into the Employee class
+        Add employee class to arrayList
+    Close the reader
+    Return the list of employees
+Write the information from the arrayList into output using writeFile:
+    From 0 to the length of the arrayList:
+        Write the employee information into the text file
+    Close the writer

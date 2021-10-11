@@ -1,0 +1,44 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class main{
+String inputFile
+ArrayList<Employee> employeeList
+readFile(employeeList, inputFile)
+String outputFile
+writeFile(employeeList, outputFile)
+}
+
+class readFile{
+String splitter
+BufferedReader reader
+while((line=reader.readLine()) != null)
+return employeeList
+}
+
+class writeFile{
+int length
+BufferedWriter writer
+for(int i = 0; i < length; i++)
+}
+
+class Employee{
+private String first
+private String last
+private int salary
+
+public void setFirst()
+public void setLast()
+public void setSalary()
+public String getFirst()
+public String getLast()
+public int getSalary()
+}
+
+writeFile *-- main
+readFile *-- main
+Employee *-- main
+Employee *-- readFile
+Employee *-- writeFile
+
+@enduml

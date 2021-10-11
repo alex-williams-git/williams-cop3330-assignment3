@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Main {
+ArrayList<String> inputLines
+String inputFile
+readFile(inputLines, inputFile)
+String outputFile
+writeFile(inputLines, outputFile)
+}
+
+class readFile{
+String curLine
+BufferedReader reader
+while(curLine!= null)
+return inputLines
+}
+
+class writeFile{
+BufferedWriter writer
+int length
+for(String inputLine: inputLines)
+}
+
+writeFile *-- Main
+readFile *-- Main
+
+@enduml

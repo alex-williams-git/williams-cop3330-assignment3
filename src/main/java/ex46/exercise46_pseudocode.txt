@@ -1,0 +1,13 @@
+Create a hashMap to store the frequencies of the words
+Find the frequency of the words using findFrequency function:
+    Create scanner
+    While the line is not empty/null:
+        If the word exists in the map already:
+            Increase its count
+        If the word does not exist:
+            Put the new key into the HashMap
+    Close the scanner
+Sort the HashMap in descending order using sortMap function:
+    Convert the Map to a List
+    Use collections to sort the List according to the value of the keys
+Print the sorted List

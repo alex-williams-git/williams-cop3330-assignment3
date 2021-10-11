@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class main{
+String inputFile
+String outputFile
+String key
+String replacement
+replaceWord(inputFile, outputFile, key, replacement)
+}
+
+class scanInput{
+Scanner scan
+String ret
+return ret
+}
+
+class replaceWord{
+BufferedWriter writer
+Scanner scan
+String curLine
+while(scan.hasNextLine())
+}
+
+replaceWord *-- main
+scanInput *-- main
+
+@enduml

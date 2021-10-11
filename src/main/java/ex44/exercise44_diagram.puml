@@ -1,0 +1,27 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class main{
+String inputPath
+Product product
+parseJSON(inputPath)
+trapInput(product)
+}
+
+class parseJSON{
+Gson gson = new gson()
+BufferedReader reader
+Product product
+return product
+}
+
+class trapInput{
+Scanner scan
+boolean productExists
+do while()
+}
+
+parseJSON *-- main
+trapInput *-- main
+
+@enduml

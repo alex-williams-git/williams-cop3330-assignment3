@@ -17,7 +17,7 @@ public class App {
     public static void main(String[] args) throws IOException
     {
         // store input file path
-        String inputFile = "src/main/java/ex41/exercise42_input.txt";
+        String inputFile = "src/main/java/ex42/exercise42_input.txt";
 
         // create arrayList to hold employees
         ArrayList<Employee> employeeList = new ArrayList<Employee>();
@@ -26,7 +26,7 @@ public class App {
         employeeList = readFile(employeeList, inputFile);
 
         // store output file path
-        String outputFile = "src/main/java/ex41/exercise42_output.txt";
+        String outputFile = "src/main/java/ex42/exercise42_output.txt";
 
         // write employees into text file
         writeFile(employeeList, outputFile);

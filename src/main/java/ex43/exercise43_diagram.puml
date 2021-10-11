@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class main{
+String[] filePath
+int valid
+if(valid == 0)
+}
+
+class ScanIn{
+String[] userInput
+Scanner scan
+return userInput
+}
+
+class makeDirectory{
+Boolean Bool = false
+String website_folder
+String website_folder_name
+String htmlFileName
+String js_folder_name
+String css_folder_name
+file.mkdir()
+return 1
+}
+
+makeDirectory *-- main
+ScanIn *-- main
+
+@enduml

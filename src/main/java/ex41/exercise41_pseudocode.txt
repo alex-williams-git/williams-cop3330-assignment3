@@ -1,0 +1,12 @@
+Create ArrayList<String> to hold the input from file
+Read the file using function readFile:
+    Create BufferedReader
+    While current line is not empty/null
+        Store contents into ArrayList created earlier
+    Close reader
+    Return the ArrayList
+Sort the array list with sort function
+Write the files using function writeFile:
+    Create BufferedWriter
+    Write lines from arraylist into new text file
+    Close writer

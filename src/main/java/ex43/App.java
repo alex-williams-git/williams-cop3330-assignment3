@@ -67,7 +67,7 @@ public class App {
         String htmlFileName = website_folder_name + "/index.html";
         File htmlFile = new File(htmlFileName);
         BufferedWriter writer = new BufferedWriter(new FileWriter(htmlFile));
-        writer.write("<title>" + path[0] + "</title>\n");
+        writer.write("<html><title>" + path[0] + "</title></html>\n");
         writer.write("<meta name=\"" + path[1] + "\">\n");
         writer.close();
 
